@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LivrosHqsMangas">
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="114dp"
+        android:layout_height="104dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginBottom="9dp"
+        app:layout_constraintBottom_toTopOf="@+id/toolbar7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.54"
+        app:layout_constraintStart_toEndOf="@+id/imageView6"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:src="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Favoritos"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="128dp"
+        tools:layout_editor_absoluteY="81dp" />
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="22dp"
+        android:layout_height="23dp"
+        android:src="@android:drawable/btn_star_big_on"
+        tools:layout_editor_absoluteX="202dp"
+        tools:layout_editor_absoluteY="82dp" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="142dp"
+        android:layout_height="20dp"
+        android:text="Nome do Usuario"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="43dp" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar8"
+        android:layout_width="410dp"
+        android:layout_height="37dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="9dp"
+        android:background="#5A588E"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintBottom_toTopOf="@+id/imageView8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <SearchView
+        android:layout_width="158dp"
+        android:layout_height="34dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="131dp" />
+
+    <TextView
+        android:id="@+id/textView47"
+        android:layout_width="53dp"
+        android:layout_height="21dp"
+        android:clickable="true"
+        android:text="INICIO"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="233dp"
+        tools:layout_editor_absoluteY="137dp" />
+
+    <TextView
+        android:id="@+id/textView51"
+        android:layout_width="61dp"
+        android:layout_height="20dp"
+        android:clickable="true"
+        android:text="CONTA"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="137dp" />
+
+    <TextView
+        android:id="@+id/textView55"
+        android:layout_width="57dp"
+        android:layout_height="36dp"
+        android:clickable="true"
+        android:text="Desafio Infinito"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="335dp" />
+
+    <TextView
+        android:id="@+id/textView59"
+        android:layout_width="72dp"
+        android:layout_height="37dp"
+        android:clickable="true"
+        android:text="add Novo Material"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="295dp"
+        tools:layout_editor_absoluteY="586dp" />
+
+    <TextView
+        android:id="@+id/textView57"
+        android:layout_width="80dp"
+        android:layout_height="18dp"
+        android:clickable="true"
+        android:text="House of X"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="568dp" />
+
+    <TextView
+        android:id="@+id/textView56"
+        android:layout_width="84dp"
+        android:layout_height="28dp"
+        android:clickable="true"
+        android:text="Crise das nas Infinitas Terras"
+        android:textSize="12sp"
+        tools:layout_editor_absoluteX="271dp"
+        tools:layout_editor_absoluteY="343dp" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar2"
+        android:layout_width="406dp"
+        android:layout_height="11dp"
+        android:background="#5A588E"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="305dp" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="233dp"
+        android:layout_height="85dp"
+        android:text="Continuar pelo Ultimo Lido"
+        android:textSize="35sp"
+        tools:layout_editor_absoluteX="159dp"
+        tools:layout_editor_absoluteY="197dp" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="143dp"
+        android:layout_height="128dp"
+        app:srcCompat="@drawable/jpg_20220628_112936_0000"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="177dp" />
+
+    <ImageView
+        android:id="@+id/imageView31"
+        android:layout_width="18sp"
+        android:layout_height="19sp"
+        android:src="@android:drawable/btn_star_big_on"
+        tools:layout_editor_absoluteX="141dp"
+        tools:layout_editor_absoluteY="567dp" />
+
+    <ImageView
+        android:id="@+id/imageView24"
+        android:layout_width="119dp"
+        android:layout_height="179dp"
+        app:srcCompat="@drawable/Infinitywar"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="371dp" />
+
+    <ImageView
+        android:id="@+id/imageView25"
+        android:layout_width="18dp"
+        android:layout_height="19dp"
+        app:srcCompat="@android:drawable/btn_star"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="352dp" />
+
+    <ImageView
+        android:id="@+id/imageView29"
+        android:layout_width="18dp"
+        android:layout_height="19dp"
+        app:srcCompat="@android:drawable/btn_star"
+        tools:layout_editor_absoluteX="372dp"
+        tools:layout_editor_absoluteY="352dp" />
+
+    <ImageView
+        android:id="@+id/imageView26"
+        android:layout_width="119dp"
+        android:layout_height="179dp"
+        app:srcCompat="@drawable/Dc1"
+        tools:layout_editor_absoluteX="271dp"
+        tools:layout_editor_absoluteY="371dp" />
+
+    <ImageView
+        android:id="@+id/imageView30"
+        android:layout_width="126dp"
+        android:layout_height="191dp"
+        app:srcCompat="@drawable/HOUSEOfx"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="586dp" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:srcCompat="@android:drawable/ic_input_add"
+        tools:layout_editor_absoluteX="299dp"
+        tools:layout_editor_absoluteY="632dp" />
+
+    <ScrollView
+        android:layout_width="414dp"
+        android:layout_height="426dp"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="316dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FAVORITOS"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="300dp"
+        tools:layout_editor_absoluteY="137dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

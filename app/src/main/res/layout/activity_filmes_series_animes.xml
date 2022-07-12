@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FilmesSeriesAnimes">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="22dp"
+        android:layout_height="23dp"
+        android:src="@android:drawable/btn_star_big_on"
+        tools:layout_editor_absoluteX="202dp"
+        tools:layout_editor_absoluteY="82dp" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="142dp"
+        android:layout_height="20dp"
+        android:text="Nome do Usuario"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="43dp" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar6"
+        android:layout_width="406dp"
+        android:layout_height="11dp"
+        android:background="#5A588E"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="305dp" />
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Favoritos"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="128dp"
+        tools:layout_editor_absoluteY="81dp" />
+
+    <TextView
+        android:id="@+id/textView43"
+        android:layout_width="242dp"
+        android:layout_height="78dp"
+        android:text="Continuar pelo Ultimo assistido ?"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="189dp" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar7"
+        android:layout_width="410dp"
+        android:layout_height="37dp"
+        android:background="#5A588E"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="129dp" />
+
+    <TextView
+        android:id="@+id/textView46"
+        android:layout_width="53dp"
+        android:layout_height="20dp"
+        android:clickable="true"
+        android:text="INICIO"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="234dp"
+        tools:layout_editor_absoluteY="136dp" />
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="114dp"
+        android:layout_height="104dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="9dp"
+        app:layout_constraintBottom_toTopOf="@+id/toolbar7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.54"
+        app:layout_constraintStart_toEndOf="@+id/imageView6"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:src="@tools:sample/avatars" />
+
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="143dp"
+        android:layout_height="128dp"
+        app:srcCompat="@drawable/jpg_20220628_112936_0000"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="177dp" />
+
+    <TextView
+        android:id="@+id/textView48"
+        android:layout_width="63dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="8dp"
+        android:text="CONTA"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/toolbar7"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/searchView2"
+        tools:layout_editor_absoluteY="137dp" />
+
+    <TextView
+        android:id="@+id/textView52"
+        android:layout_width="96dp"
+        android:layout_height="21dp"
+        android:text="Ir ate o Link"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="267dp"
+        tools:layout_editor_absoluteY="396dp" />
+
+    <TextView
+        android:id="@+id/textView50"
+        android:layout_width="43dp"
+        android:layout_height="23dp"
+        android:text="Suits"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="103dp"
+        tools:layout_editor_absoluteY="335dp" />
+
+    <TextView
+        android:id="@+id/textView58"
+        android:layout_width="102dp"
+        android:layout_height="22dp"
+        android:text="Supernatural"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="551dp" />
+
+    <TextView
+        android:id="@+id/textView49"
+        android:layout_width="96dp"
+        android:layout_height="20dp"
+        android:text="FAVORITOS"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="299dp"
+        tools:layout_editor_absoluteY="136dp" />
+
+    <ImageView
+        android:id="@+id/imageView27"
+        android:layout_width="205dp"
+        android:layout_height="155dp"
+        app:srcCompat="@drawable/imagemsuits"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="358dp" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:srcCompat="@android:drawable/ic_media_play"
+        tools:layout_editor_absoluteX="322dp"
+        tools:layout_editor_absoluteY="442dp" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:srcCompat="@android:drawable/ic_menu_info_details"
+        tools:layout_editor_absoluteX="249dp"
+        tools:layout_editor_absoluteY="442dp" />
+
+    <ImageView
+        android:id="@+id/imageView28"
+        android:layout_width="205dp"
+        android:layout_height="155dp"
+        app:srcCompat="@drawable/Supernatural"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="560dp" />
+
+    <TextView
+        android:id="@+id/textView53"
+        android:layout_width="95dp"
+        android:layout_height="24dp"
+        android:text="Ir ate o Link"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="268dp"
+        tools:layout_editor_absoluteY="573dp" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:srcCompat="@android:drawable/ic_menu_info_details"
+        tools:layout_editor_absoluteX="249dp"
+        tools:layout_editor_absoluteY="611dp" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:srcCompat="@android:drawable/ic_media_play"
+        tools:layout_editor_absoluteX="322dp"
+        tools:layout_editor_absoluteY="611dp" />
+
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <SearchView
+        android:id="@+id/searchView2"
+        android:layout_width="160dp"
+        android:layout_height="34dp"
+        app:layout_constraintEnd_toStartOf="@+id/toolbar7"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="132dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

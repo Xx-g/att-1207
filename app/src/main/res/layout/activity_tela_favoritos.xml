@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".telaFavoritos">
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="114dp"
+        android:layout_height="104dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="9dp"
+        app:layout_constraintBottom_toTopOf="@+id/toolbar7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.54"
+        app:layout_constraintStart_toEndOf="@+id/imageView6"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:src="@tools:sample/avatars" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="22dp"
+        android:layout_height="23dp"
+        android:src="@android:drawable/btn_star_big_on"
+        tools:layout_editor_absoluteX="187dp"
+        tools:layout_editor_absoluteY="68dp" />
+
+    <TextView
+        android:id="@+id/textView39"
+        android:layout_width="142dp"
+        android:layout_height="20dp"
+        android:text="Nome do Usuario"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="29dp" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Favoritos"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="113dp"
+        tools:layout_editor_absoluteY="67dp" />
+
+    <TextView
+        android:id="@+id/textView45"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Favoritos"
+        tools:layout_editor_absoluteX="167dp"
+        tools:layout_editor_absoluteY="316dp" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="22dp"
+        android:layout_height="23dp"
+        android:src="@android:drawable/btn_star_big_on"
+        tools:layout_editor_absoluteX="227dp"
+        tools:layout_editor_absoluteY="316dp" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="22dp"
+        android:layout_height="23dp"
+        android:src="@android:drawable/btn_star_big_on"
+        tools:layout_editor_absoluteX="227dp"
+        tools:layout_editor_absoluteY="344dp" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="22dp"
+        android:layout_height="23dp"
+        android:src="@android:drawable/btn_star_big_on"
+        tools:layout_editor_absoluteX="258dp"
+        tools:layout_editor_absoluteY="522dp" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar4"
+        android:layout_width="410dp"
+        android:layout_height="37dp"
+        android:background="#5A588E"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="130dp" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar5"
+        android:layout_width="406dp"
+        android:layout_height="11dp"
+        android:background="#49485E"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="305dp" />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="53dp"
+        android:layout_height="21dp"
+        android:clickable="true"
+        android:text="INICIO"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="242dp"
+        tools:layout_editor_absoluteY="137dp" />
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="228dp"
+        android:layout_height="60dp"
+        android:text="Favoritos onde voce pode achar de tudo"
+        android:textSize="25sp"
+        tools:layout_editor_absoluteX="167dp"
+        tools:layout_editor_absoluteY="192dp" />
+
+    <TextView
+        android:id="@+id/textView44"
+        android:layout_width="188dp"
+        android:layout_height="49dp"
+        android:text="Aqui todos com uma estrela irao apareçer"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="167dp"
+        tools:layout_editor_absoluteY="252dp" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="41dp"
+        android:layout_height="20dp"
+        android:text="Suits"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="185dp"
+        tools:layout_editor_absoluteY="347dp" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="91dp"
+        android:layout_height="22dp"
+        android:text="House of X"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="167dp"
+        tools:layout_editor_absoluteY="523dp" />
+
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="97dp"
+        android:layout_height="20dp"
+        android:clickable="true"
+        android:text="FAVORITOS"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="313dp"
+        tools:layout_editor_absoluteY="137dp" />
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="63dp"
+        android:layout_height="21dp"
+        android:clickable="true"
+        android:text="CONTA"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="137dp" />
+
+    <SearchView
+        android:layout_width="158dp"
+        android:layout_height="34dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="131dp" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="143dp"
+        android:layout_height="128dp"
+        app:srcCompat="@drawable/jpg_20220628_112936_0000"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="177dp" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/star_big_on"
+        tools:layout_editor_absoluteX="363dp"
+        tools:layout_editor_absoluteY="260dp" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="194dp"
+        android:layout_height="149dp"
+        app:srcCompat="@drawable/imagemsuits"
+        tools:layout_editor_absoluteX="119dp"
+        tools:layout_editor_absoluteY="367dp" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="117dp"
+        android:layout_height="179dp"
+        app:srcCompat="@drawable/HOUSEOfx"
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="545dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
